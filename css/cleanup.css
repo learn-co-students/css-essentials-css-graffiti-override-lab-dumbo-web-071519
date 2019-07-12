@@ -1,1 +1,30 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+#wall #tag-2 {
+  background: url(../images/tag-2.png) repeat;
+}
+
+#wall #tag-3.slick {
+  background: url(../images/tag-3.png) repeat;
+  display: inline-block;
+}
+
+#wall #tag-4 {
+  display: inline-block;
+}
+
+#wall .parent #tag-5.slick {
+  background: url(../images/tag-5.png) repeat;
+}
+
+#tag-6 {
+  z-index: 2;
+  display: inline-block;
+}
+
+#wall div.parent div > #tag-7.slick {
+  background: url(../images/tag-7.png) repeat;
+}
